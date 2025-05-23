@@ -1,12 +1,42 @@
-# React + Vite
+# 🌩️ Cloud Project App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple React frontend application built using Vite and deployed on an AWS EC2 instance. It demonstrates a basic client-side app hosted on a cloud server with public access via HTTP.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+👉 [Click here to view the live app](http://13.60.189.194)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> ⚠️ Note: The EC2 instance must be running for the link to work.
+
+---
+
+## 📦 Features
+
+- ⚛️ Built with **React** and **Vite**
+- 🖥️ Deployed on an **Ubuntu EC2 instance**
+- 📡 Served with `serve` on **port 80**
+- 🌐 Publicly accessible via browser
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Technology        |
+|-------------|-------------------|
+| Frontend    | React + Vite      |
+| Server Host | AWS EC2 (Ubuntu)  |
+| Deployment  | Manual (SSH + serve) |
+
+---
+
+## 🧪 Run Locally
+
+Clone the project and start the dev server:
+
+```bash
+git clone https://github.com/shahdyehiaa/cloud-project.git
+cd cloud-project
+npm install
+npm run dev
